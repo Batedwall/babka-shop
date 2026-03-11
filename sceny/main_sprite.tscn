@@ -188,7 +188,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rnew7"]
-size = Vector2(79, 93)
+size = Vector2(62, 83)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=2063579120]
 position = Vector2(16, -8)
@@ -206,5 +206,5 @@ offset = Vector2(10, 10)
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=425606404]
-position = Vector2(-139.5, 719.5)
+position = Vector2(-148, 714.5)
 shape = SubResource("RectangleShape2D_rnew7")
