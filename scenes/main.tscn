@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://8cxhrjjdvu5w"]
 
-[ext_resource type="Texture2D" uid="uid://doq1jd3uuqlkn" path="res://images/origbig.png" id="1_lquwl"]
-[ext_resource type="Texture2D" uid="uid://b4thgubpcl3c2" path="res://images/Terrain (16x16).png" id="2_7mycd"]
-[ext_resource type="Texture2D" uid="uid://lyknj4m8gxmt" path="res://images/Water_Middle.png" id="3_272bh"]
-[ext_resource type="Texture2D" uid="uid://d1nqny536c6ui" path="res://images/Oak_Tree.png" id="4_5vw27"]
-[ext_resource type="PackedScene" uid="uid://bcouby0ip5263" path="res://sceny/main_sprite.tscn" id="5_kek77"]
+[ext_resource type="Texture2D" uid="uid://doq1jd3uuqlkn" path="res://textures/origbig.png" id="1_lquwl"]
+[ext_resource type="Texture2D" uid="uid://b4thgubpcl3c2" path="res://textures/Terrain (16x16).png" id="2_7mycd"]
+[ext_resource type="Texture2D" uid="uid://lyknj4m8gxmt" path="res://textures/Water_Middle.png" id="3_272bh"]
+[ext_resource type="Texture2D" uid="uid://d1nqny536c6ui" path="res://textures/Oak_Tree.png" id="4_5vw27"]
+[ext_resource type="PackedScene" uid="uid://bcouby0ip5263" path="res://scenes/main_sprite.tscn" id="5_kek77"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c57u"]
 texture = ExtResource("2_7mycd")
@@ -480,9 +480,15 @@ sources/3 = SubResource("TileSetAtlasSource_dg77c")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=591292317]
 texture_filter = 1
-offset_left = 1.0
-offset_right = 2305.0
-offset_bottom = 1296.0
+anchors_preset = -1
+anchor_left = 0.08400001
+anchor_top = 0.108
+anchor_right = 0.08400001
+anchor_bottom = 0.108
+offset_left = -106.520004
+offset_top = -77.76
+offset_right = 2197.48
+offset_bottom = 1218.24
 texture = ExtResource("1_lquwl")
 stretch_mode = 1
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1nqny536c6ui"
-path="res://.godot/imported/Oak_Tree.png-28fba4c61ed8fcae09c8e044e151b4e6.ctex"
+uid="uid://b4thgubpcl3c2"
+path="res://.godot/imported/Terrain (16x16).png-8629d6dbcbb0ec1c6d0cdd7ad02764c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Oak_Tree.png"
-dest_files=["res://.godot/imported/Oak_Tree.png-28fba4c61ed8fcae09c8e044e151b4e6.ctex"]
+source_file="res://textures/Terrain (16x16).png"
+dest_files=["res://.godot/imported/Terrain (16x16).png-8629d6dbcbb0ec1c6d0cdd7ad02764c8.ctex"]
 
 [params]
 
