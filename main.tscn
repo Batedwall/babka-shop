@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://8cxhrjjdvu5w"]
 
-[ext_resource type="Texture2D" uid="uid://dwwjoo7i364g3" path="res://origbig.png" id="1_lquwl"]
-[ext_resource type="Texture2D" uid="uid://cd1315anw5vt1" path="res://Terrain (16x16).png" id="2_7mycd"]
-[ext_resource type="Texture2D" uid="uid://st0m1qwopu2o" path="res://Water_Middle.png" id="3_272bh"]
-[ext_resource type="Texture2D" uid="uid://by48qujqm8kae" path="res://Oak_Tree.png" id="4_5vw27"]
+[ext_resource type="Texture2D" uid="uid://doq1jd3uuqlkn" path="res://images/origbig.png" id="1_lquwl"]
+[ext_resource type="Texture2D" uid="uid://b4thgubpcl3c2" path="res://images/Terrain (16x16).png" id="2_7mycd"]
+[ext_resource type="Texture2D" uid="uid://lyknj4m8gxmt" path="res://images/Water_Middle.png" id="3_272bh"]
+[ext_resource type="Texture2D" uid="uid://d1nqny536c6ui" path="res://images/Oak_Tree.png" id="4_5vw27"]
 [ext_resource type="PackedScene" uid="uid://bcouby0ip5263" path="res://sceny/main_sprite.tscn" id="5_kek77"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c57u"]
