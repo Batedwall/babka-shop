@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://doq1jd3uuqlkn"
-path="res://.godot/imported/origbig.png-4bbbb211a47fff334c506b7e98573e57.ctex"
+uid="uid://c1gnexekpbui1"
+path="res://.godot/imported/Cool Text - jump 505270992123792.png-cff0085e209445b7492ce1ed66abba27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/origbig.png"
-dest_files=["res://.godot/imported/origbig.png-4bbbb211a47fff334c506b7e98573e57.ctex"]
+source_file="res://main_menu/Cool Text - jump 505270992123792.png"
+dest_files=["res://.godot/imported/Cool Text - jump 505270992123792.png-cff0085e209445b7492ce1ed66abba27.ctex"]
 
 [params]
 
