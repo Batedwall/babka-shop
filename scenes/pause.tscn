@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://bymhprr0qd6dq"]
 
+[ext_resource type="AudioStream" uid="uid://bbqbmhkaorv36" path="res://Sounds/nesrality-boismortier-joseph-bodin-de-french-opus-1-2d-medieval-music-8428 (mp3cut.net).mp3" id="1_f1d2v"]
+
 [node name="pause" type="Control" unique_id=270372155]
 layout_mode = 3
 anchors_preset = 15
@@ -64,3 +66,8 @@ grow_vertical = 2
 text = "
 Pause"
 horizontal_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=402134409]
+stream = ExtResource("1_f1d2v")
+volume_db = -13.0
+autoplay = true

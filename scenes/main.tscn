@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://d1nqny536c6ui" path="res://textures/Oak_Tree.png" id="4_5vw27"]
 [ext_resource type="PackedScene" uid="uid://bcouby0ip5263" path="res://scenes/main_sprite.tscn" id="5_kek77"]
 [ext_resource type="PackedScene" uid="uid://bymhprr0qd6dq" path="res://scenes/pause.tscn" id="7_tipki"]
+[ext_resource type="AudioStream" uid="uid://bbqbmhkaorv36" path="res://Sounds/nesrality-boismortier-joseph-bodin-de-french-opus-1-2d-medieval-music-8428 (mp3cut.net).mp3" id="8_tipki"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c57u"]
 texture = ExtResource("2_7mycd")
@@ -531,6 +532,9 @@ offset_left = 1184.532
 offset_top = -360.27606
 offset_right = 1444.5881
 offset_bottom = -91.88397
+
+[node name="AudioStreamPlayer2D" parent="CanvasLayer/pause" index="1" unique_id=402134409]
+stream = ExtResource("8_tipki")
 
 [connection signal="pressed" from="CanvasLayer/pause/Panel/VBoxContainer/resume" to="maneger" method="_on_resume_pressed"]
 [connection signal="pressed" from="CanvasLayer/pause/Panel/VBoxContainer/menu" to="maneger" method="_on_menu_pressed"]

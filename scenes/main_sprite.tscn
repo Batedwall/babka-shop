@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://37ghaxg64nej" path="res://sprite/animations/Idle (32x32).png" id="2_nuojk"]
 [ext_resource type="Texture2D" uid="uid://c4exxnobm7dl8" path="res://sprite/animations/Jump (32x32).png" id="3_0m32k"]
 [ext_resource type="Texture2D" uid="uid://bjxuy73odtwj3" path="res://sprite/animations/Run (32x32).png" id="4_urtf3"]
+[ext_resource type="AudioStream" uid="uid://duwn1178a1ctx" path="res://Sounds/wova-zvuki-shagi-beg-po-betonnomu-polu (mp3cut.net) (2).mp3" id="5_1wny3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_equu6"]
 atlas = ExtResource("2_nuojk")
@@ -208,3 +209,11 @@ flip_h = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=425606404]
 position = Vector2(-148, 714.5)
 shape = SubResource("RectangleShape2D_rnew7")
+
+[node name="movesound" type="AudioStreamPlayer2D" parent="." unique_id=746728571]
+stream = ExtResource("5_1wny3")
+volume_db = 1.0
+
+[node name="Timer" type="Timer" parent="movesound" unique_id=1767409830]
+wait_time = 0.65
+one_shot = true
